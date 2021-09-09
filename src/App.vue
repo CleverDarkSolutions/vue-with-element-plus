@@ -1,10 +1,26 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id='nav'>
+    <div class='top-part'>
+      <Logo/>
+      <MenuElementOne/>
+    </div>
+    <div class='middle-part'>
+    </div>
   </div>
-  <router-view/>
 </template>
+
+<script>
+import { defineComponent } from 'vue'
+import Logo from './components/Logo.vue'
+import MenuElementOne from './components/MenuElementOne.vue'
+
+export default defineComponent({
+  components: {
+    Logo,
+    MenuElementOne
+  }
+})
+</script>
 
 <style>
 #app {
@@ -12,19 +28,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
+}
+.top-part {
+  width: 100%;
+  height: 70vh;
+  background: #f9f9f9;
 }
 
-#nav {
-  padding: 30px;
+.middle-part {
+  width: 100%;
+  height: 100vh;
+  background: #fcfefe;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+body {
+  padding: none;
+  margin: none;
 }
 </style>
