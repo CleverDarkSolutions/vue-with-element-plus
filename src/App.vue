@@ -4,6 +4,8 @@
       <Logo/>
       <MenuElementOne/>
       <LoginButton/>
+      <MiddleTextOne/>
+      <DoctorPic/>
     </div>
     <div class='middle-part'>
     </div>
@@ -15,27 +17,29 @@ import { defineComponent } from 'vue'
 import Logo from './components/Logo.vue'
 import MenuElementOne from './components/MenuElementOne.vue'
 import LoginButton from './components/LoginButton.vue'
+import MiddleTextOne from './components/MiddleTextOne.vue'
+import DoctorPic from './components/DoctorPic.vue'
 
 export default defineComponent({
   components: {
     Logo,
     MenuElementOne,
-    LoginButton
+    LoginButton,
+    MiddleTextOne,
+    DoctorPic
   }
 })
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Urbanist', sans-serif;
   text-align: center;
   color: black;
 }
 .top-part {
   width: 100%;
-  height: 70vh;
+  height: 50vw;
   background: #f9f9f9;
 }
 

@@ -46,19 +46,10 @@ export default defineComponent({
     right: 1vw;
     width: 150px;
     font-size: 21px;
-    background: black;
-    border: 10px white inset;
-}
-
-@media only screen and (max-width: 1200px) {
-    .login-button {
-        margin-right: 30px;
-        margin-top: 4vh;
-        width: 100px;
-        font-size: 15px;
-        top: 1.2vh;
-        border: 5px white inset;
-    }
+    font-weight: 800;
+    background: white;
+    border: 10px black inset;
+    color: black;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -66,7 +57,34 @@ export default defineComponent({
         margin-right: 10px;
         margin-top: 2vh;
         width: 50px;
-        border: 2px white inset;
+        border: 2px black inset;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .login-button {
+        margin-right: 20px;
+        margin-top: 4vh;
+        width: 100px;
+        font-size: 19px;
+        top: 1.2vh;
+        border: 5px black inset;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .login-button {
+        margin-right: 100px;
+        width: 150px;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .login-button {
+        margin-right: 300px;
+        width: 200px;
+        font-size: 25px;
     }
 }
 
