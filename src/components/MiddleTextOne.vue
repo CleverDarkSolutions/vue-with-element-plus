@@ -2,7 +2,7 @@
     <div class='item'>
         <p class='text'>Znajdziemy <span class='green-text'>Ci</span> najlepszego <span class='green-text'> lekarza </span></p>
         <p class='smaller-text'>Profesjonalna konsultacja bez wychodzenia z domu. Wybierz sposrod kilku tysiecy specjalistow w calym kraju</p>
-        <p class='smaller-text green-text' style="font-weight: 1000">Umów wizyte juz teraz !</p>
+        <el-button class='btn' type='success' round>Umów się na wizyte online już teraz </el-button>
     </div>
 </template>
 
@@ -21,6 +21,13 @@ export default defineComponent({
     left: 10%;
     width: 30vw;
     height: 40vh;
+}
+
+.btn {
+    width: 30vw;
+    font-size: 1.5vw;
+    position: relative;
+    top: 2.5vw;
 }
 
 .text {

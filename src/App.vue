@@ -6,6 +6,8 @@
       <LoginButton/>
       <MiddleTextOne/>
       <DoctorPic/>
+      <Services/>
+      <Form/>
     </div>
     <div class='middle-part'>
     </div>
@@ -19,6 +21,8 @@ import MenuElementOne from './components/MenuElementOne.vue'
 import LoginButton from './components/LoginButton.vue'
 import MiddleTextOne from './components/MiddleTextOne.vue'
 import DoctorPic from './components/DoctorPic.vue'
+import Form from './components/Form.vue'
+import Services from './components/Services.vue'
 
 export default defineComponent({
   components: {
@@ -26,7 +30,9 @@ export default defineComponent({
     MenuElementOne,
     LoginButton,
     MiddleTextOne,
-    DoctorPic
+    DoctorPic,
+    Form,
+    Services
   }
 })
 </script>
@@ -39,7 +45,7 @@ export default defineComponent({
 }
 .top-part {
   width: 100%;
-  height: 50vw;
+  height: 45vw;
   background: #f2f2f2;
 }
 
