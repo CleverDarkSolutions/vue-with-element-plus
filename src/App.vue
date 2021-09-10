@@ -3,6 +3,7 @@
     <div class='top-part'>
       <Logo/>
       <MenuElementOne/>
+      <LoginButton/>
     </div>
     <div class='middle-part'>
     </div>
@@ -13,11 +14,13 @@
 import { defineComponent } from 'vue'
 import Logo from './components/Logo.vue'
 import MenuElementOne from './components/MenuElementOne.vue'
+import LoginButton from './components/LoginButton.vue'
 
 export default defineComponent({
   components: {
     Logo,
-    MenuElementOne
+    MenuElementOne,
+    LoginButton
   }
 })
 </script>

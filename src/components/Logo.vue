@@ -51,7 +51,7 @@ h3 {
     text-align: center;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1000px){
     .logo {
         width: 150px;
         font-size: 13px;

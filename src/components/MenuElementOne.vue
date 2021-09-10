@@ -6,7 +6,7 @@
       </el-breadcrumb-item>
 
       <el-breadcrumb-item>
-        <span>Współpraca</span>
+        <span>Wspolpraca</span>
       </el-breadcrumb-item>
 
       <el-breadcrumb-item>
@@ -26,15 +26,15 @@ export default defineComponent({
 <style scoped>
 
 .element-one {
+    font-family: 'Urbanist', sans-serif;
     margin-left: 500px;
-    margin-top: 1vh;
     padding-top: 2%;
     float: left;
     width: 40vw;
     height: 8vh;
 }
 span {
-    font-size: 1.3vw;
+    font-size: 1.8vw;
     color: black;
     margin: 0.5vw;
 }
@@ -46,7 +46,7 @@ span:hover {
 @media only screen and (max-width: 1200px) {
     .element-one {
         margin-left: 400px;
-        margin-top: 4vh;
+        margin-top: 10vh;
         width: 60vw;
     }
 
@@ -55,16 +55,22 @@ span:hover {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .element-one{
         margin-left: 250px;
-        margin-top: 1.4vh;
+        margin-top: 3vh;
         width: 70vw;
     }
 
     span {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
+}
+
+@media only screen and (max-width: 2000px) {
+  .element-one {
+    margin-top: 1vh;
+  }
 }
 
 </style>
