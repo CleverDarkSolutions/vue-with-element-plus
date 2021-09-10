@@ -2,7 +2,6 @@
   <div>
     <img class='doctor-picture' src='../assets/harold.png'>
     <img class='signature' src='../assets/polecam.png'>
-    <span class='extra-info'> dr. hab. Paul Smith jest z nami od 10 lat</span>
   </div>
 </template>
 
@@ -29,13 +28,5 @@ export default defineComponent({
     position: absolute;
     right: 10%;
     top: 30%;
-}
-
-.extra-info {
-    position: absolute;
-    top: 75%;
-    right: 30%;
-    width: 20vw;
-    font-size: 2vw;
 }
 </style>

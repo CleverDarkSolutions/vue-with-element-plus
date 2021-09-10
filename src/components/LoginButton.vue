@@ -38,7 +38,6 @@ export default defineComponent({
 <style scoped>
 
 .login-button {
-    font-family: 'Urbanist', sans-serif;
     margin-top: 2vh;
     margin-right: 50px;
     position: absolute;
@@ -46,8 +45,7 @@ export default defineComponent({
     right: 1vw;
     width: 150px;
     font-size: 21px;
-    font-weight: 800;
-    background: white;
+    background: #f2f2f2;
     border: 10px black inset;
     color: black;
 }

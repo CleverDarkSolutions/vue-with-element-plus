@@ -33,20 +33,20 @@ export default defineComponent({
 
 <style>
 #app {
-  font-family: 'Urbanist', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   text-align: center;
   color: black;
 }
 .top-part {
   width: 100%;
   height: 50vw;
-  background: #f9f9f9;
+  background: #f2f2f2;
 }
 
 .middle-part {
   width: 100%;
   height: 100vh;
-  background: #fcfefe;
+  background: #fbf7f7;
 }
 
 body {

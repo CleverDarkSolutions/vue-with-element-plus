@@ -26,7 +26,6 @@ export default defineComponent({
 <style scoped>
 
 .element-one {
-    font-family: 'Urbanist', sans-serif;
     margin-left: 500px;
     padding-top: 2%;
     float: left;
