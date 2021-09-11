@@ -8,6 +8,7 @@
       <DoctorPic/>
       <Services/>
       <Form/>
+      <HowTo/>
     </div>
     <div class='middle-part'>
     </div>
@@ -23,6 +24,7 @@ import MiddleTextOne from './components/MiddleTextOne.vue'
 import DoctorPic from './components/DoctorPic.vue'
 import Form from './components/Form.vue'
 import Services from './components/Services.vue'
+import HowTo from './components/HowTo.vue'
 
 export default defineComponent({
   components: {
@@ -32,7 +34,8 @@ export default defineComponent({
     MiddleTextOne,
     DoctorPic,
     Form,
-    Services
+    Services,
+    HowTo
   }
 })
 </script>
@@ -45,7 +48,7 @@ export default defineComponent({
 }
 .top-part {
   width: 100%;
-  height: 45vw;
+  height: 38vw;
   background: #f2f2f2;
 }
 

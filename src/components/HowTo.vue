@@ -1,25 +1,24 @@
 <template>
-    <div class='window-form'>fjksa</div>
+    <div>
+        <p class='header'>Jak to działa?</p>
+    </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-
 })
 </script>
 
 <style scoped>
 
-.window-form {
+.header {
+    font-size: 3vw;
+    font-weight: 900;
     position: absolute;
+    top: 75vw;
     left: 10%;
-    top: 200vh;
-    background: white;
-    width: 80%;
-    height: 50vh;
-    border-radius: 20px;
 }
 
 </style>
