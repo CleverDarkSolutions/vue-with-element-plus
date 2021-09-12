@@ -15,7 +15,7 @@ export default defineComponent({
 .window-form {
     position: absolute;
     left: 10%;
-    top: 200vh;
+    top: 130vw;
     background: white;
     width: 80%;
     height: 50vh;
