@@ -7,10 +7,11 @@
           <el-step title="Umów wizytę"></el-step>
           <el-step title="Gotowe !"></el-step>
         </el-steps>
-        <el-button @click='nextStep' class='btn'>Dalej</el-button>
+        <el-button type='primary' @click='nextStep' class='btn'>Dalej</el-button>
         <div class='step-description'>
-          <div v-for='element in descriptions[step]' :key='element'>
-            <span v-for='key in element' :key='key'>{{ key }}</span>
+          <div v-for='element in descriptions[step]' :key='element' class='item'>
+            <el-icon> <check class='icon' /> </el-icon>
+            <span class='item-text' v-for='key in element' :key='key'>{{ key }}</span>
           </div>
         </div>
     </div>
@@ -18,18 +19,22 @@
 
 <script>
 import { defineComponent } from 'vue'
+import { Check } from '@element-plus/icons'
 
 export default defineComponent({
   data () {
     return {
       step: 0,
       descriptions: [
-        ['1.1', '1.2', '1.3'], // to be changed
+        ['Popoga', 'Madge', 'Sadeg'], // to be changed
         ['2.1', '2.2', '2.3'],
         ['3.1', '3.2', '3.3'],
         ['4.1', '4.2', '4.3']
       ]
     }
+  },
+  components: {
+    Check
   },
   methods: {
     nextStep () {
@@ -49,6 +54,23 @@ export default defineComponent({
     left: 10%;
 }
 
+.item {
+  margin: 1vw;
+  margin-left: 3%;
+}
+
+.item-text {
+  position: relative;
+  left: 3vw;
+  top: -1.2vw;
+  font-size: 1vw;
+}
+
+.icon {
+  width: 3vw;
+  height: 3vw;
+}
+
 .progress-bar {
     position: absolute;
     top: 93vw;
@@ -59,7 +81,7 @@ export default defineComponent({
 .btn {
     position: absolute;
     top: 115vw;
-    left: 60%;
+    left: 10%;
     z-index: 1;
 }
 

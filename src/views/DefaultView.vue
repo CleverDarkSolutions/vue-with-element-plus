@@ -7,12 +7,14 @@
       <MiddleTextOne/>
       <DoctorPic/>
       <Services/>
-      <Form/>
       <HowTo/>
     </div>
     <div class='middle-part'>
     </div>
     <div class='third-part'>
+    </div>
+    <div class='fourth-part'>
+      <Partners/>
     </div>
   </div>
 </template>
@@ -24,9 +26,9 @@ import MenuElementOne from '../components/MenuElementOne.vue'
 import LoginButton from '../components/LoginButton.vue'
 import MiddleTextOne from '../components/MiddleTextOne.vue'
 import DoctorPic from '../components/DoctorPic.vue'
-import Form from '../components/Form.vue'
 import Services from '../components/Services.vue'
 import HowTo from '../components/HowTo.vue'
+import Partners from '../components/Partners.vue'
 
 export default defineComponent({
   components: {
@@ -35,9 +37,9 @@ export default defineComponent({
     LoginButton,
     MiddleTextOne,
     DoctorPic,
-    Form,
     Services,
-    HowTo
+    HowTo,
+    Partners
   }
 })
 </script>
@@ -58,11 +60,16 @@ export default defineComponent({
 
 .third-part {
     width: 100%;
-    height: 40vw;
-    background: #e1f6f4;
+    height: 45vw;
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
     border-top-right-radius: 10vw;
 }
 
+.fourth-part {
+  width: 100%;
+  height: 40vw;
+  background: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);;
+}
 body {
   padding: none;
   margin: none;
