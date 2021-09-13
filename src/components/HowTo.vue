@@ -74,21 +74,21 @@ export default defineComponent({
 .progress-bar {
     position: absolute;
     top: 93vw;
-    left: 0%;
+    left: 2%;
     width: 80%;
 }
 
 .btn {
     position: absolute;
     top: 115vw;
-    left: 10%;
+    left: 12%;
     z-index: 1;
 }
 
 .step-description {
     position: absolute;
     top: 100vw;
-    left: 6%;
+    left: 9%;
     width: 70%;
     height: 15vw;
     text-align: left;

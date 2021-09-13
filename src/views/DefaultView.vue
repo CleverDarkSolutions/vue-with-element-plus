@@ -8,13 +8,13 @@
       <DoctorPic/>
       <Services/>
       <HowTo/>
+      <Partners/>
     </div>
     <div class='middle-part'>
     </div>
     <div class='third-part'>
     </div>
     <div class='fourth-part'>
-      <Partners/>
     </div>
   </div>
 </template>
@@ -68,7 +68,7 @@ export default defineComponent({
 .fourth-part {
   width: 100%;
   height: 40vw;
-  background: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);;
+  background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
 }
 body {
   padding: none;

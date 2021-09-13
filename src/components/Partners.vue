@@ -1,10 +1,13 @@
 <template>
+  <div class='external-div'>
   <div class='carousel'>
-  <el-carousel :interval="5000" type='card' arrow="always">
+  <p class='header'>Oni także wybrali OnlineMed</p>
+  <el-carousel :interval="3000" type='card' loop='true' indicator-position='none'>
     <el-carousel-item v-for="item in images" :key="item">
       <img :src='getImgUrl(item)'>
     </el-carousel-item>
   </el-carousel>
+  </div>
   </div>
 </template>
 
@@ -18,8 +21,9 @@ export default defineComponent({
         'generali.png',
         'pzu.png',
         'nationale.png',
-        'hipokrates.png'
-
+        'hipokrates.png',
+        'allianz.png',
+        'prudential.png'
       ]
     }
   },
@@ -32,14 +36,29 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+  .header {
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    font-size: 1.5vw;
+    font-weight: 900;
+  }
   img {
+    width: 10vw;
+    height: 7vw;
+    margin-top: 2vw;
+  }
+
+  .el-carousel__item{
     width: 20vw;
+    border-radius: 3vw;
     height: 10vw;
   }
 
   .el-carousel__item:nth-child(2n) {
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .el-carousel__item:nth-child(2n + 1) {
@@ -48,8 +67,22 @@ export default defineComponent({
   }
 
   .carousel {
-    width: 70%;
-    margin-left: 10%;
+    width: 80%;
+    height: 16vw;
+    padding-top: 8vw;
+    border-radius: 2vw;
+    margin-left: 5%;
+  }
+
+  .external-div {
+    background: white;
+    width: 50%;
+    height: 20vw;
+    border-radius: 1vw;
+    margin-left: 9%;
+    position:absolute;
+    top: 130vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
 </style>
