@@ -9,8 +9,9 @@
         </el-steps>
         <el-button @click='nextStep' class='btn'>Dalej</el-button>
         <div class='step-description'>
-            <el-icon></el-icon>
-            {{ this.descriptions[this.step] }}
+          <div v-for='element in descriptions[step]' :key='element'>
+            <span v-for='key in element' :key='key'>{{ key }}</span>
+          </div>
         </div>
     </div>
 </template>
@@ -23,10 +24,10 @@ export default defineComponent({
     return {
       step: 0,
       descriptions: [
-        'desc1', // to be changed
-        'desc2',
-        'desc3',
-        'desc4'
+        ['1.1', '1.2', '1.3'], // to be changed
+        ['2.1', '2.2', '2.3'],
+        ['3.1', '3.2', '3.3'],
+        ['4.1', '4.2', '4.3']
       ]
     }
   },
