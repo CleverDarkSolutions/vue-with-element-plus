@@ -1,12 +1,12 @@
 <template>
   <div class='element-one'>
-    <el-breadcrumb separator='○'>
+    <el-breadcrumb separator='o'>
       <el-breadcrumb-item>
         <span>Strefa pacjenta</span>
       </el-breadcrumb-item>
 
       <el-breadcrumb-item>
-        <span>Wspolpraca</span>
+        <span>Współpraca</span>
       </el-breadcrumb-item>
 
       <el-breadcrumb-item>

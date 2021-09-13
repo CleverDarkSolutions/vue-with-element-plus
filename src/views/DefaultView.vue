@@ -43,6 +43,11 @@ export default defineComponent({
     HowTo,
     Partners,
     PromotionBlock
+  },
+  data () {
+    return {
+      isLogoVisible: true
+    }
   }
 })
 </script>

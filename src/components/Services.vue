@@ -55,7 +55,7 @@ img {
     position: absolute;
     top: 50vw;
     left: 10%;
-    background: #e0ffcd;
+    background: #ecfeff;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -66,7 +66,7 @@ img {
     position: absolute;
     top: 50vw;
     left: 40%;
-    background: #e0ffcd;
+    background: #ecfeff;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -77,7 +77,7 @@ img {
     position: absolute;
     top: 50vw;
     left: 70%;
-    background: #e0ffcd;
+    background: #ecfeff;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
