@@ -39,10 +39,13 @@ export default defineComponent({
 
   .header {
     position: absolute;
-    left: 5%;
+    left: 10%;
     top: 2%;
     font-size: 1.5vw;
+    color: #233142;
     font-weight: 900;
+    padding-top: 3vw;
+    padding-left: 1vw;
   }
   img {
     width: 10vw;
@@ -50,7 +53,7 @@ export default defineComponent({
     margin-top: 2vw;
   }
 
-  .el-carousel__item{
+  .el-carousel__item {
     width: 20vw;
     border-radius: 3vw;
     height: 10vw;
@@ -69,15 +72,16 @@ export default defineComponent({
   .carousel {
     width: 80%;
     height: 16vw;
-    padding-top: 8vw;
+    padding: 1vw;
+    padding-top: 10vw;
     border-radius: 2vw;
-    margin-left: 5%;
+    margin-left: 10%;
   }
 
   .external-div {
     background: white;
     width: 50%;
-    height: 20vw;
+    height: 25vw;
     border-radius: 1vw;
     margin-left: 9%;
     position:absolute;

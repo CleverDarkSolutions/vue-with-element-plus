@@ -9,6 +9,7 @@
       <Services/>
       <HowTo/>
       <Partners/>
+      <PromotionBlock/>
     </div>
     <div class='middle-part'>
     </div>
@@ -29,6 +30,7 @@ import DoctorPic from '../components/DoctorPic.vue'
 import Services from '../components/Services.vue'
 import HowTo from '../components/HowTo.vue'
 import Partners from '../components/Partners.vue'
+import PromotionBlock from '../components/PromotionBlock.vue'
 
 export default defineComponent({
   components: {
@@ -39,7 +41,8 @@ export default defineComponent({
     DoctorPic,
     Services,
     HowTo,
-    Partners
+    Partners,
+    PromotionBlock
   }
 })
 </script>
@@ -68,7 +71,8 @@ export default defineComponent({
 .fourth-part {
   width: 100%;
   height: 40vw;
-  background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+  background: #233142;
+  border-bottom-right-radius: 10vw;
 }
 body {
   padding: none;
