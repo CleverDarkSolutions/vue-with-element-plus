@@ -1,6 +1,9 @@
 <template>
   <div id='nav'>
     <div class='top-part'>
+      <Logo/>
+      <MenuElementOne/>
+      <LoginButton/>
       <DefaultVue/>
     </div>
     <div class='middle-part'>
@@ -10,11 +13,17 @@
 
 <script>
 import { defineComponent } from 'vue'
+import Logo from './components/Logo.vue'
+import MenuElementOne from './components/MenuElementOne.vue'
+import LoginButton from './components/LoginButton.vue'
 import DefaultVue from './views/DefaultView.vue'
 
 export default defineComponent({
   components: {
-    DefaultVue
+    DefaultVue,
+    Logo,
+    MenuElementOne,
+    LoginButton
   }
 })
 </script>

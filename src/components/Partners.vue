@@ -44,8 +44,8 @@ export default defineComponent({
     font-size: 1.5vw;
     color: #233142;
     font-weight: 900;
-    padding-top: 3vw;
-    padding-left: 1vw;
+    padding-top: 1.5vw;
+    padding-left: 0.5vw;
   }
   img {
     width: 10vw;
@@ -72,8 +72,8 @@ export default defineComponent({
   .carousel {
     width: 80%;
     height: 16vw;
-    padding: 1vw;
-    padding-top: 10vw;
+    padding: 0.5vw;
+    padding-top: 7.5vw;
     border-radius: 2vw;
     margin-left: 10%;
   }
@@ -81,7 +81,7 @@ export default defineComponent({
   .external-div {
     background: white;
     width: 50%;
-    height: 25vw;
+    height: 22vw;
     border-radius: 1vw;
     margin-left: 9%;
     position:absolute;
