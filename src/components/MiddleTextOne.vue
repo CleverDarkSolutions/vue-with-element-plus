@@ -2,7 +2,7 @@
     <div class='item'>
         <p class='text'>Znajdziemy <span class='green-text'>Ci</span> najlepszego <span class='green-text'> lekarza </span></p>
         <p class='smaller-text'>Profesjonalna konsultacja bez wychodzenia z domu. Wybierz spośród kilku tysięcy specjalistów w calym kraju</p>
-        <el-button class='btn' type='success' round>Umów się na wizytę online już teraz </el-button>
+        <el-button class='btn' type='primary' round>Umów się na wizytę online już teraz </el-button>
     </div>
 </template>
 
@@ -37,7 +37,7 @@ export default defineComponent({
 }
 
 .green-text {
-    color: #42b883;
+    color: #409eff
 }
 
 .smaller-text {

@@ -1,8 +1,10 @@
 <template>
 <div>
+  <router-link to='/'>
   <div class='logo'>
     <h3> OnlineMed © </h3>
   </div>
+  </router-link>
 </div>
 </template>
 
@@ -28,6 +30,7 @@ export default defineComponent({
     padding-left: 52px;
     font-size: 18px;
     user-select: none;
+    color: black;
 }
 
 h3 {

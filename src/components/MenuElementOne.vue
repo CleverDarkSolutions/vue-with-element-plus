@@ -2,7 +2,9 @@
   <div class='element-one'>
     <el-breadcrumb separator='o'>
       <el-breadcrumb-item>
+        <router-link to='/doctorsearch'>
         <span>Strefa pacjenta</span>
+        </router-link>
       </el-breadcrumb-item>
 
       <el-breadcrumb-item>
@@ -39,7 +41,7 @@ span {
 }
 
 span:hover {
-    color: #7dd87d;
+    color: #409eff;
     cursor: pointer;
 }
 @media only screen and (max-width: 1200px) {

@@ -4,10 +4,10 @@
       <Logo/>
       <MenuElementOne/>
       <LoginButton/>
-      <DefaultVue/>
     </div>
     <div class='middle-part'>
     </div>
+    <router-view/>
   </div>
 </template>
 
@@ -16,11 +16,9 @@ import { defineComponent } from 'vue'
 import Logo from './components/Logo.vue'
 import MenuElementOne from './components/MenuElementOne.vue'
 import LoginButton from './components/LoginButton.vue'
-import DefaultVue from './views/DefaultView.vue'
 
 export default defineComponent({
   components: {
-    DefaultVue,
     Logo,
     MenuElementOne,
     LoginButton
@@ -39,5 +37,9 @@ body {
   padding: none;
   margin: none;
   background: #fbf7f7;
+}
+
+a:-webkit-any-link {
+  color: black;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div>
-      <el-button class='login-button' type='info' :icon='icon' :circle='isPortable'> {{ text }} </el-button>
+      <el-button class='login-button' :icon='icon' :circle='isPortable'> <p class='text'> {{ text }} </p> </el-button>
     </div>
 </template>
 
@@ -38,48 +38,41 @@ export default defineComponent({
 <style scoped>
 
 .login-button {
-    margin-top: 2vh;
+    margin-top: 5vh;
     margin-right: 3%;
     position: absolute;
     top: 2vh;
     right: 1vw;
-    width: 150px;
-    font-size: 1.8vw;
-    background: #f2f2f2;
-    border: 10px black inset;
+    font-size: 1.5vw;
+    background: none;
+    border: 2px solid black;
     color: black;
 }
 
 @media only screen and (max-width: 1000px) {
     .login-button {
-        margin-top: 2vh;
-        width: 50px;
-        border: 2px black inset;
+        margin-top: 3vh;
     }
 }
 
 @media only screen and (min-width: 1000px) {
     .login-button {
         margin-top: 4vh;
-        width: 100px;
-        font-size: 19px;
         top: 1.2vh;
-        border: 5px black inset;
     }
 }
 
 @media only screen and (min-width: 1400px) {
     .login-button {
         margin-right: 10%;
-        width: 150px;
-        font-size: 22px;
+        margin-top: 1vw;
     }
 }
 
 @media only screen and (min-width: 1800px) {
     .login-button {
-        width: 200px;
-        font-size: 25px;
+        margin-right: 20%;
+        margin-top: 1vw;
     }
 }
 
