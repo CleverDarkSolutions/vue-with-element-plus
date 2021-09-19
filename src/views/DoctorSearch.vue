@@ -26,7 +26,9 @@
         </el-date-picker>
         </div>
 
-        <el-button class='btn' type='success'>Przejdź dalej </el-button>
+        <el-button class='btn' type='success' @click='scrollToPayment'>Przejdź dalej </el-button>
+
+        <img src='../assets/doc.png' class='doctor-image'>
       </div>
     </div>
       <div class='middle'>
@@ -68,16 +70,24 @@
           </div>
         </div>
       </div>
+      <Footer style='top: 100vw'/>
 </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
+import Footer from '../components/Footer.vue'
 
 export default defineComponent({
+  components: {
+    Footer
+  },
   methods: {
     getImgUrl (pic) { // for some reason this is necessary
       return require('../assets/' + pic)
+    },
+    scrollToPayment () {
+      window.scrollBy(0, 600)
     }
   },
   data () {
@@ -212,10 +222,24 @@ export default defineComponent({
       position: absolute;
     }
 
+    .payment-box:hover {
+      border: 2px solid #afc5ff;
+      cursor: pointer;
+    }
+
     .payment-image {
       width: 5vw;
       height: 5vw;
       margin-top: 1vw;
+    }
+
+    .doctor-image {
+      position: absolute;
+      overflow: hidden;
+      right: 0%;
+      top: 0%;
+      width: 25vw;
+      height: 25vw;
     }
 
      @media only screen and (max-width: 1200px) {

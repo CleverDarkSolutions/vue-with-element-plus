@@ -5,8 +5,6 @@
       <MenuElementOne/>
       <LoginButton/>
     </div>
-    <div class='middle-part'>
-    </div>
     <router-view/>
   </div>
 </template>
@@ -27,10 +25,19 @@ export default defineComponent({
 </script>
 
 <style>
+
+html {
+  scroll-behavior: smooth;
+}
 #app {
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
   color: black;
+}
+
+.nav {
+  width: 100%;
+  height: 100%;
 }
 
 body {

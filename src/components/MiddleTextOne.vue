@@ -2,7 +2,9 @@
     <div class='item'>
         <p class='text'>Znajdziemy <span class='green-text'>Ci</span> najlepszego <span class='green-text'> lekarza </span></p>
         <p class='smaller-text'>Profesjonalna konsultacja bez wychodzenia z domu. Wybierz spośród kilku tysięcy specjalistów w calym kraju</p>
+        <router-link to='/doctorsearch'>
         <el-button class='btn' type='primary' round>Umów się na wizytę online już teraz </el-button>
+        </router-link>
     </div>
 </template>
 

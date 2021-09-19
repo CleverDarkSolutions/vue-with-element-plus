@@ -8,6 +8,7 @@
       <Partners/>
       <PromotionBlock/>
       <News/>
+      <Footer style='top: 230vw'/>
     </div>
     <div class='middle-part'>
     </div>
@@ -29,6 +30,7 @@ import HowTo from '../components/HowTo.vue'
 import Partners from '../components/Partners.vue'
 import PromotionBlock from '../components/PromotionBlock.vue'
 import News from '../components/News.vue'
+import Footer from '../components/Footer.vue'
 
 export default defineComponent({
   components: {
@@ -38,7 +40,8 @@ export default defineComponent({
     HowTo,
     Partners,
     PromotionBlock,
-    News
+    News,
+    Footer
   }
 })
 </script>
