@@ -8,11 +8,15 @@
       </el-breadcrumb-item>
 
       <el-breadcrumb-item>
+        <router-link to='/'>
         <span>Współpraca</span>
+        </router-link>
       </el-breadcrumb-item>
 
       <el-breadcrumb-item>
-        <span>Pomoc</span>
+        <router-link to='/'>
+          <span>Pomoc</span>
+        </router-link>
       </el-breadcrumb-item>
     </el-breadcrumb>
   </div>
@@ -38,6 +42,7 @@ span {
     font-size: 1.8vw;
     color: black;
     margin: 0.5vw;
+    font-weight: 300;
 }
 
 span:hover {

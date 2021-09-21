@@ -26,7 +26,7 @@ export default defineComponent({
     return {
       step: 0,
       descriptions: [
-        ['Popoga', 'Madge', 'Sadeg'], // to be changed
+        ['1.1', '1.2', '1.3'], // to be changed
         ['2.1', '2.2', '2.3'],
         ['3.1', '3.2', '3.3'],
         ['4.1', '4.2', '4.3']
