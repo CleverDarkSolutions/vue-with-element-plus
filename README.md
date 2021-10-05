@@ -1,24 +1,10 @@
-# popoga
+Website available at https://vue-et.herokuapp.com/
 
-## Project setup
-```
-npm install
-```
+Disclaimer: The website is in development stage.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This website is a visual design challenge after I was unsatisfied with my first Vue project.
+For once I wanted to focus more on appearance than on number of functionalities.
+I use ElementPlus library, because it's compatible with Vue 3 and easy to use.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Special thanks to Vue Land discord community.
